@@ -1,0 +1,15 @@
+.recent-entry {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #d1c4e9;
+    border-radius: 8px;
+  }
+  
+  .recent-entry-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
