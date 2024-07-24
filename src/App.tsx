@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Leaderboard from './components/Leaderboard';
 import AddScorePopup from './components/AddScorePopup';
 import RecentEntry from './components/RecentEntry';
+import Footer from './components/Footer';
 import './App.css';
 
 const App: React.FC = () => {
@@ -14,6 +15,7 @@ const App: React.FC = () => {
       </header>
       <Leaderboard />
       <RecentEntry />
+      <Footer/>
       {isPopupOpen && <AddScorePopup onClose={() => setIsPopupOpen(false)} />}
       <footer className="App-footer">
         <div className="scrolling-footer">

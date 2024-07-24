@@ -1,0 +1,27 @@
+.scroll-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    width: 100%;
+  }
+  
+  .image-container {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  

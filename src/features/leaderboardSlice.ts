@@ -29,8 +29,8 @@ const leaderboardSlice = createSlice({
         const bTotal = bMin * 60000 + bSec * 1000 + bMSec;
         return aTotal - bTotal;
       });
-      if (state.scores.length > 10) {
-        state.scores = state.scores.slice(0, 10);
+      if (state.scores.length > 30) {
+        state.scores = state.scores.slice(0, 30);
       }
       state.recentEntry = { ...action.payload, isNew: true };
     },

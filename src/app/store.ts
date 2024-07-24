@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import leaderboardReducer, { LeaderboardState } from '../features/leaderboardSlice';
+import leaderboardReducer from '../features/leaderboardSlice';
 
 export const store = configureStore({
   reducer: {
